@@ -1,0 +1,21 @@
+.GameButton {
+  margin-top: 40px;
+}
+.GameButton button{
+  position: relative;
+  margin: 0 auto;
+  display: list-item;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  font-weight: 900;
+  color: #FFF;
+  padding: 1.25rem 2rem;
+  background: lightcoral;
+  text-transform: uppercase;  
+}
+
+.GameButton button:hover{
+  background: lightseagreen;
+}

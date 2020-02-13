@@ -6,7 +6,7 @@ import {Bonneteau} from './containers/Bonneteau/Bonneteau';
 function App() {
   return (
     <div className="App">
-      <img src={geek}/>
+      <img alt="geek bonneteau" src={geek}/>
       <Bonneteau />
     </div>
   );

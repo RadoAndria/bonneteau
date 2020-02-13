@@ -1,0 +1,26 @@
+.Cup {
+  display: block;
+  width: 120px;
+  height: 120px;
+  line-height: 123px;
+  margin: 20px;
+  border-radius: 100%;
+  border: 5px solid #35495e;
+  background: lightseagreen;
+  color: lightseagreen;
+  transition: color 1s ease-in-out;
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  transform: scale(1);
+  transition: all .25s ease-in-out;
+  cursor: pointer;
+}
+
+.Cup:hover {
+  transform: scale(1.2);
+}
+
+.Cup[active=true] {
+  color: #f06292;
+}

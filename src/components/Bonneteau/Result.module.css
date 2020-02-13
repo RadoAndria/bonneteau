@@ -1,0 +1,12 @@
+.Result {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.Win {
+  color: #388e3c;
+}
+
+.Lose {
+  color: #f50057;
+}
